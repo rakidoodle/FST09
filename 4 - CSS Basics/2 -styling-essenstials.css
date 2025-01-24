@@ -1,0 +1,86 @@
+#text-styling {
+    /* default family : Times New Roman */
+    /* Font Fallback:  */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Kerword Values */
+    font-weight: bold;
+    font-weight: bolder;
+
+    /* Numerica Value */
+    font-weight: 100;
+    font-weight: 200;
+    font-weight: 300;
+    font-weight: 400;
+    font-weight: 500;
+    font-weight: 600;
+    font-weight: 700;
+    font-weight: 800;
+    font-weight: 900;
+    font-weight: 950;
+
+    /* Font Style */
+    font-style: oblique;
+    font-style: italic;
+
+    /* Font Alignment  */
+    text-align: left;
+    text-align: right;
+    text-align: center;
+
+    line-height: 80px;
+
+    letter-spacing: 4px;
+    letter-spacing: -2px;
+
+}
+
+#text-decoration {
+    text-decoration-line: underline;
+    text-decoration-line: line-through;
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+    text-decoration-style: dashed;
+    text-decoration-style: double;
+    text-decoration-style: wavy;
+
+    text-decoration-color: tomato;
+    text-decoration-thickness: 6px;
+
+    /* Combine them all */
+    text-decoration: underline tomato 4px wavy;
+}
+
+#colors {
+    /* Name Colors | Color name value */
+    color: yellow;
+    background-color: aqua;
+
+    /* RGB */
+  /* rgb(red, green, blue) */
+  /* 0 - 255 */
+  color: rgb(255, 150, 0);
+  background-color: rgb(0, 150, 255);
+  /* Hexadecimal Format */
+  /* #RRGGBB */
+  /* 0-9, A-F */
+  color: #faf0ca;
+  background-color: #0d3b66;
+}
+
+    /* Units of Measurement */
+#absolute-unit-px {
+    font-size: 18px;
+}
+
+#relative-unit-em {
+    /* Relative to the parents of the font-size */
+    font-size: 1em; /* 20px */
+    font-size: 3em; /* 60 
+*/
+}
+
+#relative-unit-rem {
+    /* Relative to the font-size of the root element (HTML)*/
+    font-size: 3rem; /* 48px */
+
+}
